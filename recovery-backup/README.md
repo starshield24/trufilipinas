@@ -28,3 +28,18 @@ Before any major change:
 
 ## Source completeness
 See RECOVERY_MANIFEST.md for the current status of each known file.
+
+## Mandatory backup workflow for future Sintra work
+
+Whenever Sintra returns actual source code, a full file, a relevant code block, or a before/after implementation as part of our troubleshooting or development work:
+
+1. Preserve the returned code in this repository before relying on it for another change.
+2. Store it under recovery-backup/source/ using the real project path where possible.
+3. If the returned code is only a partial excerpt, store it as a clearly marked partial snapshot rather than presenting it as a complete file.
+4. Record the date and the Sintra task/context in a manifest entry.
+5. Commit every meaningful snapshot so Git history becomes our recovery history.
+6. Never overwrite a previous snapshot silently. New states get new commits or dated snapshot files.
+7. Before changing a file in Sintra, save the current code we have received from Sintra in GitHub first.
+8. If Sintra later gives us a complete file, add the complete file and mark the manifest accordingly.
+
+The goal is to build a usable recovery copy incrementally from every real code artifact Sintra gives us. This repository is not assumed to be a complete mirror of the Sintra project until every file has been captured.
