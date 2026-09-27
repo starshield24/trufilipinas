@@ -1,0 +1,13 @@
+# Partial source snapshot — Manila Meeting Place Bottom Controls (safe-area test)
+
+Date: 2026-09-27
+Status: PARTIAL EXCERPT (not a complete source file)
+Original project path: src/components/meeting-place/meeting-place-page.tsx
+Context: Sintra-confirmed saved state after the latest test.
+
+Only change from the prior snapshot:
+paddingBottom: "0"
+became:
+paddingBottom: "env(safe-area-inset-bottom, 0px)"
+
+Sintra confirmation: all other containers unchanged; build errors reported as pre-existing.
