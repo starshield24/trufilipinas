@@ -1,0 +1,68 @@
+# Public Database Tables
+
+Project ref: `mzzftteiycxmazgjjqqm`
+
+- `affiliate_commissions`
+- `affiliate_profiles`
+- `affiliate_referrals`
+- `app_config`
+- `app_settings`
+- `blocked_users`
+- `browse_swipe_counts`
+- `browse_swipes`
+- `chat_clearances`
+- `chat_clears`
+- `chat_deletions`
+- `chat_gifts`
+- `chat_presence`
+- `chatroom_live_streams`
+- `conversation_reads`
+- `dm_reads`
+- `earnings_ledger`
+- `email_campaign_logs`
+- `email_reminders`
+- `flirt_friday_claims`
+- `flirt_friday_email_sends`
+- `flirt_friday_tokens`
+- `gifts`
+- `group_chat_activity`
+- `group_chat_hearts`
+- `group_chat_message_requests`
+- `group_chat_messages`
+- `group_chat_presence`
+- `guest_invitations`
+- `hidden_conversations`
+- `id_verifications`
+- `inbox_likes`
+- `inbox_notifications`
+- `likes`
+- `live_feed_comments`
+- `live_feed_hearts`
+- `live_feed_post_views`
+- `live_feed_posts`
+- `live_stream_messages`
+- `live_stream_viewers`
+- `live_streams`
+- `match_email_sends`
+- `match_reads`
+- `matches`
+- `meeting_room_music`
+- `messages`
+- `new_members_newsletter_sends`
+- `page_views`
+- `payout_requests`
+- `private_chat_requests`
+- `private_message_daily_counts`
+- `profile_likes`
+- `profile_photos`
+- `profile_reminder_sends`
+- `profiles`
+- `push_subscriptions`
+- `reengagement_email_sends`
+- `subscriptions`
+- `transactions`
+- `video_calls`
+- `wallets`
+- `women_earnings_email_sends`
+
+This is an infrastructure inventory only. No production rows are included.
