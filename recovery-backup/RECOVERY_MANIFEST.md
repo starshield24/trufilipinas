@@ -24,3 +24,8 @@ Do NOT manufacture missing source code from summaries. When a complete file beco
 - A test changing Manila bottom padding to 0 did not remove the strip.
 - Fixed-containing-block audit found no transformed/filtering ancestor creating a different fixed containing block.
 - No documented temporal correlation was found between the historical safe-area change and the first appearance of the blue strip.
+
+## 2026-10-03 session snapshot
+- Added: recovery-backup/source-snippets/2026-10-03-session-snapshot.md
+- This snapshot records the exact chat-established snippets and saved implementation details for the One-Liner composer, One-Liner comments modal, push notifications, landing page privacy fix, favicon/Cloudflare setup, duplicate-like cleanup, SEO/blog work, Invite Friends status, PWA history, and publishing history.
+- It is still a recovery aid, not a complete source backup.
